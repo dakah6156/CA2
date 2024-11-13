@@ -1,0 +1,51 @@
+<html lang="en"><head>
+        <meta charset="UTF-8">
+        <title>SWITCH</title>
+        <link rel="stylesheet" id="stylesheet" href="css/style1.css">
+		<script src="scripts/switch.js"></script>
+        
+    </head>
+    <header>
+        <h1>Velkommen til Zanzibar</h1>
+    </header>
+    <body> 
+
+        <button id="switchbutton" type="button" onclick="switchCSS('css/style1.css','css/style2.css'); return false;">
+		<p> bytt design </p>
+		</button>
+
+        <header>
+            <h1>Naturskjønnhet fra Zanzibar</h1>
+        
+        </header>
+    
+        <section aria-label="Tekst om bilder">
+            <p>Opplev den naturlige skjønnheten i Zanzibar med bilder som fanger trær, fjell, sjøen og skyer.</p>
+            <p>Disse bildene er tatt under en reise, og de viser den fredelige og dramatiske atmosfæren i Zanzibars landskap.</p>
+            <footer>Kilde: Fotografens Dawit Michael Kahsay</footer>
+        </section>
+        <picture>
+            <source media="(min-width:1000px)" srcset="IMG_0635.jpeg">
+            <img src="imges/IMG_0945.jpeg " alt="Naturskjønnhet">
+        </picture>
+    
+        <figure aria-label="Bilder fra Zanzibar">
+            <img src="imges/IMG_0945.jpeg" alt="Bilde av fjell fra Zanzibar">
+            <img src="imges/IMG_0635.jpeg" alt="bilde av sjøen fra Zanzibar">
+            <img src="imges/IMG_0666.jpeg" alt="bilde av trær fra Zanzibar">
+            <img src="imges/IMG_0772.jpeg" alt="bilde av skyer fra Zanzibar">
+        </figure>
+         <!-- Bakgrunnsvideo -->
+    <video autoplay loop muted playsinline id="background-video">
+        <source src="video/IMG.MOV" type="video/mp4">
+        Din nettleser støtter dessverre ikke video.
+    </video>
+
+    <main>
+        <p>Opplev skjønnheten av Zanzibar gjennom naturbilder og video.</p>
+    </main>
+
+
+
+</body>
+</html>
